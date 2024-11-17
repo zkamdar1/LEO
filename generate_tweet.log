@@ -30,3 +30,8 @@ Your client app is not configured with the appropriate oauth1 app permissions fo
 Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
 2024-11-16 23:37:33,772:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-11-16 23:37:34,129:INFO:Tweet posted: 🚀✨ Tech tidbit: AI just hit a new high with OpenAI's latest model! Think of it as your brainy friend who never sleeps. Time to get smart! 🧠💡 #AI #TechNews
+2024-11-17 00:06:33,541:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-17 00:06:33,892:INFO:Tweet posted: "In the words of the great Eleanor Roosevelt, 'The future belongs to those who believe in the beauty of their dreams.' Political discourse may often feel like a battlefield, but it's our shared dreams and aspirations that can unite us. Let's strive for a future where dialogue ...
+2024-11-17 00:08:03,601:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-17 00:08:03,844:ERROR:Error posting tweet: 403 Forbidden
+You are not permitted to perform this action.

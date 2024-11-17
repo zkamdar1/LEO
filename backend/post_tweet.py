@@ -4,7 +4,7 @@ import os
 import tweepy
 import logging
 from dotenv import load_dotenv
-from generate_tweet import generate_tweet  # Import the generate_tweet function
+from .generate_tweet import generate_tweet  # Import the generate_tweet function
 
 # Load environment variables from .env file
 load_dotenv()

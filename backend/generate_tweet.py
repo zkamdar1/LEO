@@ -5,7 +5,7 @@ import openai
 import random
 import logging
 from dotenv import load_dotenv
-from tweet_content import MAIN_CONTENTS, FORMATS, TONES, STYLES, ATTRIBUTES
+from .tweet_content import MAIN_CONTENTS, FORMATS, TONES, STYLES, ATTRIBUTES
 
 # Load environment variables from .env file
 load_dotenv()
@@ -38,7 +38,7 @@ def generate_tweet():
 
     # Build the prompt
     base_prompt = f"""
-    Create a tweet about {main_content} that includes {tweet_format}. The tweet must be less than {length} characters and is made with tones of {tone}, in the style of {style} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else.
+    Create a tweet about {main_content} that includes {tweet_format}. The tweet must have less than {length} characters and is made with tones of {tone}, in the style of {style} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else. Make sure the tweet is natural and flowy in tone and structure.
     """
 
     try:
