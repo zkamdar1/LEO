@@ -1,0 +1,32 @@
+2024-11-16 21:35:50,431:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 21:42:04,742:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 21:43:04,672:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 21:44:03,216:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 21:50:28,894:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 21:51:26,055:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:03:44,467:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:06:23,959:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:18:02,290:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:18:02,299:ERROR:Error posting tweet: 'API' object has no attribute 'create_tweet'
+2024-11-16 22:21:13,959:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:21:13,968:ERROR:Error posting tweet: 'API' object has no attribute 'create_tweet'
+2024-11-16 22:21:31,799:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:21:31,808:ERROR:Error posting tweet: API.update_profile() takes 1 positional argument but 2 were given
+2024-11-16 22:26:46,783:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:26:46,792:ERROR:Error posting tweet: 'Client' object has no attribute 'apply_auth'
+2024-11-16 22:28:14,539:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:28:14,761:ERROR:Error posting tweet: 401 Unauthorized
+89 - Invalid or expired token.
+2024-11-16 22:36:40,793:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:36:40,803:ERROR:Error posting tweet: Client.create_tweet() takes 1 positional argument but 2 were given
+2024-11-16 22:37:37,581:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:37:37,729:ERROR:Error posting tweet: 401 Unauthorized
+Unauthorized
+2024-11-16 22:37:54,341:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:37:54,498:ERROR:Error posting tweet: 403 Forbidden
+Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
+2024-11-16 22:38:56,587:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 22:38:56,751:ERROR:Error posting tweet: 403 Forbidden
+Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
+2024-11-16 23:37:33,772:INFO:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-16 23:37:34,129:INFO:Tweet posted: 🚀✨ Tech tidbit: AI just hit a new high with OpenAI's latest model! Think of it as your brainy friend who never sleeps. Time to get smart! 🧠💡 #AI #TechNews
