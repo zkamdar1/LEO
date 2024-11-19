@@ -1,14 +1,14 @@
 # tweet_content.py
 
 MAIN_CONTENTS = [
-    "crypto tips",
-    "blockchain insights",
+    "crypto",
+    "blockchain",
     "funny cat memes",
     "motivational quotes",
     "tech news",
     "personal development advice",
-    "stock market insights",
-    "political commentary",
+    "insights/advice",
+    "commentary",
     "random thoughts",
     "humorous observations"
 ]

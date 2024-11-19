@@ -38,7 +38,7 @@ def generate_tweet():
 
     # Build the prompt
     base_prompt = f"""
-    Create a tweet about {main_content} that includes {tweet_format}. The tweet must have less than {length} characters and is made with tones of {tone}, in the style of {style} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else. Make sure the tweet is natural and flowy in tone and structure.
+    Create a tweet about {main_content} that includes {tweet_format}. The tweet must have less than {length} characters and is made with tones of {tone}, in the style of {style} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else. Make sure that the tone of the tweet is not fake/AI and seems sentient and human when read.
     """
 
     try:
