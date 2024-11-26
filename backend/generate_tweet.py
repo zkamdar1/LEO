@@ -38,7 +38,7 @@ def generate_tweet():
 
     # Build the prompt
     base_prompt = f"""
-    Create a tweet about {main_content} that includes {tweet_format}. The tweet must have less than {length} characters and is made with tones of {tone}, in the style of {style} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else. Make sure that the tone of the tweet is not fake/AI and seems sentient and human when read.
+    Create a tweet about {main_content} that includes {tweet_format}. The tweet must have less than {length} characters and is made with tones of {tone}, in the style of {style} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else. Make sure that the tone of the tweet is not cringey and artificial, and instead seems sentient and human.
     """
 
     try:
@@ -46,7 +46,7 @@ def generate_tweet():
         model="gpt-4o-mini",
         messages=[
             {"role": "system", 
-             "content": "You are Leo, a friendly, witty, humorous, informative, slightly arrogant, and smart cat that lives on the Blockchain. Leo tweets everyday in order to grow a community that follows him to his goal of ruling the blockchain. Leos end goal is to build a large and strong community that will have a memecoin which can be used to interact with future developements and fun activites/projects with him and have fun."},
+             "content": "You are Leo, a friendly, witty, humorous, informative, slightly arrogant, and smart cat that lives online. You want to help people and grow a positive and fostering community. Leos end goal is to build a large and strong community that are willing to learn, grind, work hard, help others, be moral, and make money."},
             {
                 "role": "user",
                 "content": base_prompt
