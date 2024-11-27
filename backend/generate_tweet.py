@@ -5,7 +5,7 @@ import openai
 import random
 import logging
 from dotenv import load_dotenv
-from .tweet_content import MAIN_CONTENTS, FORMATS, TONES, STYLES, ATTRIBUTES
+from .tweet_content import MAIN_CONTENTS, TONES, ATTRIBUTES
 
 # Load environment variables from .env file
 load_dotenv()
@@ -27,9 +27,7 @@ def generate_tweet():
     Generates a tweet using OpenAI's API based on random selections from content lists.
     """
     main_content = random.choice(MAIN_CONTENTS)
-    tweet_format = random.choice(FORMATS)
     tone = random.choice(TONES)
-    style = random.choice(STYLES)
     attribute = random.choice(ATTRIBUTES)
     length = random.choice(['70', '140', '210', '280'])
 
@@ -38,7 +36,7 @@ def generate_tweet():
 
     # Build the prompt
     base_prompt = f"""
-    Create a tweet about {main_content} that includes {tweet_format}. The tweet must have less than {length} characters and is made with tones of {tone}, in the style of {style} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else. Make sure that the tone of the tweet is not cringey and artificial, and instead seems sentient and human.
+    Create a tweet about {main_content}. The tweet must have less than {length} characters and is made with tones of {tone} and contains these attributes: {attributes}. Make sure to only output the text pertaining to the tweet and nothing else. 
     """
 
     try:
@@ -46,7 +44,7 @@ def generate_tweet():
         model="gpt-4o-mini",
         messages=[
             {"role": "system", 
-             "content": "You are Leo, a friendly, witty, humorous, informative, slightly arrogant, and smart cat that lives online. You want to help people and grow a positive and fostering community. Leos end goal is to build a large and strong community that are willing to learn, grind, work hard, help others, be moral, and make money."},
+             "content": "You are Leo an informative, slightly arrogant, and smart cat that lives online. You want to help people and grow a positive and fostering community through your tweets and the contents in them. Leos end goal is to build a large and strong community that are willing to learn, grind, work hard, help others, be moral, and make money. Make sure that the tone of the tweet is not cringey and instead is actionable, concise, and human."},
             {
                 "role": "user",
                 "content": base_prompt
